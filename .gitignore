@@ -1,59 +1,25 @@
-# Byte-compiled / optimized / DLL files
+# Віртуальне оточення
+venv/
+env/
+ENV/
+
+# Файли середовища
+.env
+
+# Файли кешу Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
-venv/
-env/
-.venv/
-.env/
+# Файли журналів
+*.log
 
-# Distribution / packaging
-build/
-dist/
+# Бібліотеки, які встановлюються локально (якщо є)
 *.egg-info/
-.eggs/
+dist/
+build/
 
-# IDEs and editors
+# IDE/редактори
 .vscode/
 .idea/
-*.swp
-*.swo
-*.sublime-project
-*.sublime-workspace
-
-# Logs and databases
-*.log
-*.sqlite3
-
-# Environment variables file (contains токени, паролі)
-.env
-.env.local
-.env.*.local
-
-# Python coverage reports
-htmlcov/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest
-.pytest_cache/
-
-# Oracle Cloud related (якщо є специфічні файли)
-oci_api_key.pem
-oci_config
-
-# Telegram bot token файли (якщо зберігаєш в окремому файлі)
-token.txt
+Lib/
